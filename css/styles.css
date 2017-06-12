@@ -1,0 +1,36 @@
+header.jumbotron {
+  position: relative;
+  overflow: hidden;
+  background-color: rgba(51, 122, 183, 1.0);
+}
+
+header.jumbotron img {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: auto;
+    opacity: 0.15;
+}
+
+header.jumbotron h1 {
+  padding: 0px;
+  position: relative;
+  z-index: 2;
+  color: #d7e6f4;
+}
+
+header.jumbotron h3{
+  padding: 0px;
+  position: relative;
+  z-index: 2;
+  color: #afcee9;
+}
+
+.main {
+  margin-left: 6.5rem;
+}
+
+#page1, #page2, #page3 {
+  display: none;
+}
