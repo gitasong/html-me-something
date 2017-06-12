@@ -1,5 +1,17 @@
+/*font-family: 'Roboto', sans-serif;
+font-family: 'Roboto Slab', serif;*/
+
 h1, h2, h3, h4, h5, h6 {
   color: #337ab7;
+  font-family: 'Roboto Slab', serif;
+  font-weight: 700;
+}
+
+p {
+  font-size: 1.6rem;
+  line-height: 2.6rem;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
 }
 
 header.jumbotron {
@@ -35,6 +47,16 @@ header.jumbotron h3{
   margin-left: 6.5rem;
 }
 
+ul li {
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.6rem;
+  font-weight: 300;
+}
+
+ul ul li em {
+  font-weight: 400;
+}
+
 figure {
   margin: 2rem 1rem 3rem 0rem;
 }
@@ -46,11 +68,16 @@ figure img {
 
 figcaption {
   text-align: center;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  font-size: 1.5rem;
   font-style: italic;
 }
 
 blockquote {
   border-left: 5px solid #d7e6f4;
+  font-family: 'Roboto Slab', serif;
+  font-weight: 500i;
   font-style: italic;
   font-size: 2.5rem;
   color: #337ab7;
@@ -58,6 +85,12 @@ blockquote {
 
 blockquote i {
   color: #afcee9;
+}
+
+.continued {
+  font-family: inherit;
+  font-weight: 500;
+  color: #337ab7;
 }
 
 button.tablinks {
