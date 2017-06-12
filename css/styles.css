@@ -35,6 +35,20 @@ header.jumbotron h3{
   margin-left: 6.5rem;
 }
 
+figure {
+  margin: 2rem 1rem 3rem 0rem;
+}
+
+figure img {
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+figcaption {
+  text-align: center;
+  font-style: italic;
+}
+
 button.tablinks {
   background-color: #d7e6f4;
   color: #337ab7;
