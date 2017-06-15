@@ -45,6 +45,14 @@ header.jumbotron h3{
 
 .main {
   margin-left: 6.5rem;
+  margin-bottom: 3rem;
+}
+
+address {
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.6rem;
+  font-weight: 300;
+  /*font-style: italic;*/
 }
 
 ul li {
@@ -104,4 +112,10 @@ button.tablinks {
 
 #page1, #page2, #page3 {
   display: none;
+}
+
+footer {
+  padding: 5rem 0rem 5rem 6.5rem;
+  background-color: #337ab7;
+  color: #fff;
 }
